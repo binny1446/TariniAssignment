@@ -1,5 +1,6 @@
 # Streamlit App Setup Guide
 
+You can test the agent hosted on streamlit cloud link[https://tariniassignment-d7ctkvqykoq4rf6tsbjgez.streamlit.app/] or you can run locally using below steps
 ## Prerequisites
 - Python 3.8+
 - Git
@@ -8,14 +9,15 @@
 
 1. Clone the repository
 ```bash
-git clone https://github.com/username/project-name.git](https://github.com/binny1446/TariniAssignment.git
+git clone https://github.com/binny1446/TariniAssignment.git
 cd TariniAssignment
 ```
 
-2. Create virtual environment
+2. Create virtual environment and activate it
 ```bash
 # Windows
-venv\Scripts\activate
+python -m venv env_name
+env_name\Scripts\activate
 ```
 
 3. Install requirements
