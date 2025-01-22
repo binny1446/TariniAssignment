@@ -1,2 +1,2 @@
-# QuicksellAssignment
+# TariniAssignment
 QuicksellAssignment
