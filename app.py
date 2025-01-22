@@ -299,7 +299,7 @@ def ner_product_search(state: State) -> State:
 
 def product_search(state: State) -> State:
     retrieved_faq = retrieve_faq(str(state["messages"][-1]))
-    revelant_faqs = str(revelant_faqs[0]) + " " + str(revelant_faq[1])
+    retrieved_faq = str(retrieved_faq[0]) + " " + str(retrieved_faq[1])
     return {"retrieved_faq": retrieved_faq}
 
 def llm_product_search(state: State) -> State:
@@ -320,7 +320,7 @@ def general_chat(state: State) -> State:
 
 def faq_inquiry(state: State) -> State:
     retrieved_faq = retrieve_faq(str(state["messages"][-1]))
-    revelant_faqs = str(revelant_faqs[0]) + " " + str(revelant_faq[1])
+    retrieved_faq = str(retrieved_faq[0]) + " " + str(retrieved_faq[1])
     return {"retrieved_faq": retrieved_faq}
 
 def faq_answer(state: State) -> State:
@@ -333,7 +333,7 @@ def ner_order_tracking(state: State) -> State:
 
 def order_search(state: State) -> State:
     retrieved_faq = retrieve_faq(str(state["ner_result"][-1]))
-    revelant_faqs = str(revelant_faqs[0]) + " " + str(revelant_faq[1])
+    retrieved_faq = str(retrieved_faq[0]) + " " + str(retrieved_faq[1])
     return {"retrieved_faq": retrieved_faq}
 
 def llm_order_tracking(state: State) -> State:
