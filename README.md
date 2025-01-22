@@ -1,6 +1,8 @@
 # Streamlit App Setup Guide
 
 You can test the agent hosted on streamlit cloud link[https://tariniassignment-d7ctkvqykoq4rf6tsbjgez.streamlit.app/] or you can run locally using below steps
+
+Link of video https://drive.google.com/file/d/1nsCjTlLiE-NwupiT3WKfQn3g5y3As5fR/view?usp=sharing running agent locally
 ## Prerequisites
 - Python 3.8+
 - Git
