@@ -1,2 +1,2 @@
-# TariniAssignment
-E-commerce Agent
+# QuicksellAssignment
+QuicksellAssignment
